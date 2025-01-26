@@ -1,0 +1,143 @@
+.home-section {
+    height: 100vh;
+    display: flex;
+    padding-top: 100px;
+    align-items: left;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    gap: 20px;
+  }
+  
+
+  .home-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    padding: 20px;
+    width: 100%;
+    padding-left: 30px;
+  }
+  
+  
+  .text-content {
+    max-width: 600px;
+  }
+  
+  .text-content h3 {
+    font-size: 2.5rem;
+    color: #72abb0;
+  }
+  
+  .text-content h1 {
+    font-size: 4.5rem;
+    margin: 10px 0;
+    font-weight: bold;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+
+  }
+  
+  .text-content h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .highlight {
+    color: #00c8ff;
+  }
+  
+  .text-content p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+  
+  .social-links {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 20px;
+  }
+  
+  .social-links a {
+    color: white;
+    font-size: 1.5rem;
+    transition: color 0.3s ease;
+  }
+  
+  .social-links a:hover {
+    color: #00c8ff;
+  }
+  
+  .home-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #00c8ff;
+    color: white;
+    text-decoration: none;
+    border-radius: 30px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  
+  .home-btn:hover {
+    background-color: #008fb3;
+  }
+  
+
+  .image-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .profile-picture {
+    background-image: url('../Photos/background-new.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #00c8ff;
+    border-radius: 50%;
+    padding: 10px;
+    box-shadow: 0 0 60px rgba(0, 200, 255, 1);
+    display: flex;
+    justify-content: center; 
+     align-items: center; 
+    width: 350px;
+    height: 350px;
+   
+    padding-top: 100px;
+  }
+  @media (max-width: 768px) {
+    
+    .home-container {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+
+  
+    .text-content h1 {
+      font-size: 3rem;
+    }
+  
+    .text-content h2 {
+      font-size: 2rem;
+    }
+  
+    .profile-picture {
+      width: 250px;
+      height: 250px;
+      margin-top: 20px;
+    }
+  
+    .home-btn {
+      font-size: 1rem;
+      padding: 10px 15px;
+    }
+    
+  }
+  
+    
