@@ -12,7 +12,7 @@ const About = () => {
         <div className="education-container">
         <p className="about-me-text">
         Hello! I am Sowmya Chitturi, and I am a passionate Software Developer with experience in building scalable applications. Currently pursuing a Bachelor's degree in Computer Science and Engineering at VIT-AP University (2021-2025), I have honed my skills in Java, Python, HTML, and CSS.
-I have successfully completed internships as a Software Development Engineer, gaining hands-on experience in building robust systems. My project work includes sentiment analysis, low-light image enhancement, and the development of the eGiftedly website, among others. My interests lie in exploring emerging technologies, enhancing problem-solving abilities through LeetCode challenges, and continually expanding my technical skill set.
+I have successfully completed internships as a Software Development Engineer, gaining hands-on experience in building robust systems. My project work includes sentiment analysis, low-light image enhancement, and the development of the EGiftedly website, among others. My interests lie in exploring emerging technologies, enhancing problem-solving abilities through LeetCode challenges, and continually expanding my technical skill set.
 In addition to my technical expertise, I possess strong leadership qualities and a positive attitude.
         </p>
 
